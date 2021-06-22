@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <!-- css -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz" id="js-quiz">
+        <div class="quiz__header">
+            <h2 class="quiz__question quiz--mb-30 js-question"></h2>
+        </div>
+        <div class="quiz__main quiz--mb-30">
+            <div class="quiz__answer">
+                <input type="radio" name="js-answer" class="answer js-answer" id="a">
+                <label for="a" id="var_a"></label>
+            </div>
+            <div class="quiz__answer">
+                <input type="radio" name="js-answer" class="answer js-answer" id="b">
+                <label for="b" id="var_b"></label>
+            </div>
+            <div class="quiz__answer">
+                <input type="radio" name="js-answer" class="answer js-answer" id="c">
+                <label for="c" id="var_c"></label>
+            </div>
+        </div>
+        <button type="submit" class="submit" id="js-submit">Send</button>
+    </div>
+</body>
+<!-- js -->
+<script src="script.js"></script>
+
+</html>
